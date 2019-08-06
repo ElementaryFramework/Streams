@@ -1,0 +1,25 @@
+{
+  "name": "elementaryframework/streams",
+  "description": "Shared project for streams operations across the framework",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nana Axel",
+      "email": "ax.lnana@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.10"
+  },
+  "keywords": [
+    "event",
+    "emitter",
+    "async"
+  ],
+  "autoload": {
+    "psr-4": {
+      "ElementaryFramework\\Core\\Streams\\": "src/Core/Streams/"
+    }
+  }
+}
