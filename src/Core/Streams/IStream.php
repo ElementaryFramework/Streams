@@ -31,6 +31,9 @@
 
 namespace ElementaryFramework\Core\Streams;
 
+use ElementaryFramework\Core\Events\IEventEmitter;
+use ElementaryFramework\Core\Events\IEventReceiver;
+
 /**
  * Stream Interface
  *

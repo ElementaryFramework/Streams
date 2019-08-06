@@ -31,6 +31,8 @@
 
 namespace ElementaryFramework\Core\Streams\Events;
 
+use ElementaryFramework\Core\Events\IEvent;
+
 /**
  * Stream Event
  *
