@@ -26,7 +26,6 @@
  * @author    Axel Nana <ax.lnana@outlook.com>
  * @copyright 2019 Aliens Group.
  * @license   MIT <https://github.com/ElementaryFramework/Streams/blob/master/LICENSE>
- * @version   GIT: 0.0.1
  */
 
 namespace ElementaryFramework\Core\Streams;
