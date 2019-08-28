@@ -73,4 +73,16 @@ interface IReadableStream extends IStream
      * @return IReadableStream A readable stream from the destination.
      */
     function pipe(IWritableStream $destination, bool $autoEnd = true) : IReadableStream;
+
+    /**
+     * Reads the amount length of data from the stream.
+     *
+     * This method will emit a {@see StreamEvent::EVENT_DATA} event
+     * with the read buffer as event data.
+     *
+     * @param integer $length The length of data to read.
+     *
+     * @return void
+     */
+    function read(int $length) : void;
 }
