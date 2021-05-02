@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.1.10",
-    "elementaryframework/events": "^0.0.1"
+    "php": ">=7.1.10",
+    "elementaryframework/events": "^0.1.0"
   },
   "keywords": [
     "event",
